@@ -1,0 +1,13 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.font-overpass {
+  font-family: 'Overpass', sans-serif;
+}
+
+html, body, #__next {
+  @apply font-overpass;
+  @apply w-screen;
+  @apply h-screen;
+}
